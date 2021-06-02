@@ -1,0 +1,12 @@
+alias:
+  dirt:
+    # The alias name
+    name: 'dirtgive'
+    # The command to be run. ${s} refers to the player who sent the command, ${a} refers to all players. ${1,DEFAULT}, ${2,DEFAULT}, ... ${#,DEFAULT} refer to the arguments following the alias
+    command: 'give ${s} dirt ${1,64}'
+    # Custom permission to run alias
+    permission: ''
+    # What level to run the command at (server or player)
+    level: ''
+default-permission: 'commandalias.run'
+default-level: 'server'

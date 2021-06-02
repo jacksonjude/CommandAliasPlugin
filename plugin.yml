@@ -1,0 +1,17 @@
+main: com.jacksonjude.CommandAlias.CommandAliasPlugin
+name: CommandAlias
+version: 1.0
+api-version: 1.16
+author: JJCooley
+description: Custom command aliases that can be executed through the player or the server
+commands:
+   commandalias:
+      description: Reload CommandAlias config
+      usage: /commandalias < reload >
+      aliases: [ca]
+      permission: commandalias.admin
+      permission-message: You cannot reload CommandAlias config
+permissions:
+   commandalias.admin:
+      description: Reload CommandAlias config
+      default: op
